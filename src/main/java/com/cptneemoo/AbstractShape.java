@@ -1,4 +1,4 @@
 package com.cptneemoo;
 
-abstract class AbstractShape implements IShape{
+public abstract class AbstractShape implements IShape{
 }

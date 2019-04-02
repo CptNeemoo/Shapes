@@ -1,17 +1,15 @@
-package com.cptneemoo;
+package com.cptneemoo.square;
 
 import org.junit.jupiter.api.Test;
 import org.testng.Assert;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class SquareTest {
 
     @Test
     void getArea() {
         final double expected = 25;
-        Square circle = new Square(5);
-        final double actual = circle.getArea();
+        Square square = new Square(5);
+        final double actual = square.getArea();
         Assert.assertEquals(expected,actual);
     }
 }

@@ -1,9 +1,9 @@
-package com.cptneemoo;
+package com.cptneemoo.circle;
 
 import org.junit.jupiter.api.Test;
 import org.testng.Assert;
 
-public class CircleTest {
+class CircleTest {
     @Test
     void getArea() {
         final double expected = Math.PI * Math.PI * Math.PI;

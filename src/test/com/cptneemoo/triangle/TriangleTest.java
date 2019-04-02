@@ -1,9 +1,7 @@
-package com.cptneemoo;
+package com.cptneemoo.triangle;
 
 import org.junit.jupiter.api.Test;
 import org.testng.Assert;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class TriangleTest {
 
