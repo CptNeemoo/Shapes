@@ -1,8 +1,6 @@
 package com.cptneemoo;
 
 import com.cptneemoo.circle.Circle;
-import com.cptneemoo.math.DigitSumExecutor;
-import com.cptneemoo.math.MaxPalindromeFinder;
 import com.cptneemoo.square.Square;
 import com.cptneemoo.triangle.Triangle;
 
@@ -28,27 +26,6 @@ public class Main {
         shapes.add(triangle);
         //Calculating minimal and maximum number in the array
         findMinAndMaxInArray(shapes);
-        //Calculating sum of digits
-        calculateSumOfDigits();
-        //Finding max palindrome
-        findMaxPalindrome();
-    }
-
-    private static void findMaxPalindrome() {
-        log.info(String.format("Max palindrome is %d", MaxPalindromeFinder.findMaxPalindrome()));
-    }
-
-    private static void calculateSumOfDigits() {
-        long number1 = 12345;
-        long number2 = 10000000;
-        log.info(String.format("The sum of number %d with modulo function is %d",
-                number1, DigitSumExecutor.sumDigitsModulo(number1)));
-        log.info(String.format("The sum of number %d with char function is %d",
-                number1, DigitSumExecutor.sumDigitsChar(number1)));
-        log.info(String.format("The sum of number %d with modulo function is %d",
-                number2, DigitSumExecutor.sumDigitsModulo(number2)));
-        log.info(String.format("The sum of number %d with char function is %d",
-                number2, DigitSumExecutor.sumDigitsChar(number2)));
     }
 
     private static void findMinAndMaxInArray(ArrayList<AbstractShape> shapes) {
