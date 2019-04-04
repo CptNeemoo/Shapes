@@ -6,7 +6,7 @@ public class Circle extends AbstractShape {
 
     private double radius;
 
-    public Circle(double radius){
+    public Circle(double radius) {
         this.radius = radius;
     }
 

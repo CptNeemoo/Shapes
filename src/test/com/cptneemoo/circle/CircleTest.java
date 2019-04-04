@@ -9,6 +9,6 @@ class CircleTest {
         final double expected = Math.PI * Math.PI * Math.PI;
         Circle circle = new Circle(Math.PI);
         final double actual = circle.getArea();
-        Assert.assertEquals(expected,actual);
+        Assert.assertEquals(expected, actual);
     }
 }

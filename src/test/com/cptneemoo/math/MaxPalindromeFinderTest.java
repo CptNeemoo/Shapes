@@ -10,7 +10,7 @@ class MaxPalindromeFinderTest {
     void findMaxPalindrome() {
         long expected = 99000099;
         long actual = MaxPalindromeFinder.findMaxPalindrome();
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
     }
 
     @Test

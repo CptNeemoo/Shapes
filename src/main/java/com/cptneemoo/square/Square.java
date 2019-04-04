@@ -10,7 +10,7 @@ public class Square extends AbstractShape {
         return side * side;
     }
 
-    public Square(double side){
+    public Square(double side) {
         this.side = side;
     }
 }
