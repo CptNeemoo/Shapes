@@ -27,7 +27,7 @@ public class Main {
         shapes.add(square);
         shapes.add(triangle);
         //Calculating minimal and maximum number in the array
-        findMinAndMaxFromCollection(shapes);
+        findMinAndMaxInArray(shapes);
         //Calculating sum of digits
         calculateSumOfDigits();
         //Finding max palindrome
@@ -51,7 +51,7 @@ public class Main {
                 number2, DigitSumExecutor.sumDigitsChar(number2)));
     }
 
-    private static void findMinAndMaxFromCollection(ArrayList<AbstractShape> shapes) {
+    private static void findMinAndMaxInArray(ArrayList<AbstractShape> shapes) {
         double min = Double.MAX_VALUE;
         Type minType = null;
         double max = Double.MIN_VALUE;

@@ -1,7 +1,8 @@
 package com.cptneemoo.circle;
 
 import org.junit.jupiter.api.Test;
-import org.testng.Assert;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CircleTest {
     @Test
@@ -9,6 +10,6 @@ class CircleTest {
         final double expected = Math.PI * Math.PI * Math.PI;
         Circle circle = new Circle(Math.PI);
         final double actual = circle.getArea();
-        Assert.assertEquals(expected, actual);
+        assertEquals(expected, actual, 0.1);
     }
 }
