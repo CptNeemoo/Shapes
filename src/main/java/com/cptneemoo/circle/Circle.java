@@ -1,7 +1,11 @@
 package com.cptneemoo.circle;
 
 import com.cptneemoo.AbstractShape;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class Circle extends AbstractShape {
 
     private double radius;

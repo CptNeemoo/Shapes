@@ -3,8 +3,8 @@ package com.cptneemoo.math;
 public class MaxPalindromeFinder {
     public static long findMaxPalindrome() {
         long max = 0;
-        for (int i = 9999; i > 0; i--) {
-            for (int j = i; j > 0; j--) {
+        for (int i = 9999; i > 1000; i--) {
+            for (int j = i; j > 1000; j--) {
                 long multiplicationResult = i * j;
                 if (multiplicationResult > max && MaxPalindromeFinder.isPalindrome(multiplicationResult)) {
                     max = multiplicationResult;

@@ -1,7 +1,11 @@
 package com.cptneemoo.triangle;
 
 import com.cptneemoo.AbstractShape;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class Triangle extends AbstractShape {
 
     private double sideA, sideB, sideC;
